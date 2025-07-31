@@ -704,9 +704,13 @@
 
 
         // Vagaro booking function
-        function openBooking() {
-            window.open('https://mysite.vagaro.com/elevationssalon/staff', '_blank');
-        }
+    function openBooking() {
+    const staffSection = document.getElementById('staff');
+    if (staffSection) {
+        staffSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+
 
         // Gallery images for each service
         const galleryImages = {
