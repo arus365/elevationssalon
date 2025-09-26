@@ -228,22 +228,46 @@
                     <a href="#find-us" class="text-white hover:text-green-400 transition-colors font-light">Find Us</a>
                 </div>
                 
-                <!-- Mobile menu button -->
-                <div class="md:hidden flex items-center space-x-2">
-                    <button class="text-white px-4 py-2 rounded-full font-montserrat font-semibold text-sm" style="background-color: #2e926f;" onclick="openBooking()">
-                        Book
-                    </button>
-                    <button id="mobile-menu-button" class="text-white p-2" onclick="toggleMobileMenu()">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-                
-                <!-- Desktop book button -->
-                <button class="hidden md:block text-white px-6 py-2 rounded-full font-montserrat font-semibold" style="background-color: #2e926f;" onclick="openBooking()">
-                    Book Now
-                </button>
+                <!-- Mobile menu buttons -->
+<div class="md:hidden flex items-center space-x-2">
+    <!-- Book button -->
+    <button class="text-white px-4 py-2 rounded-full font-montserrat font-semibold text-sm" style="background-color: #2e926f;" onclick="openBooking()">
+        Book
+    </button>
+    
+    <!-- Classes button -->
+    <a href="https://www.vagaro.com//Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVEUpqpxe523ya53y90PX3F/j4kyckTajUIGHQrdLcECUY2aP+/fWg4IxZweaSYQRr6K1XT+klu0REPjvrdvgDuYXzkA4xwpvU7bX7i6pDxuFALRDbqmQ37dI2/t0Z28XRlXTbPrrKvltm5McGjOUbCq8rguOcpmESRJskS2KDuLBEzHcpQAU5fKl3WFnHsI1/VKjWhCi8gS78TnesD512ryAuy2l2k5XwANPSbrx9UMaGWyW65dLippXy1nlE3EPu9qqK0Zj4Uq0Kb3Mzmv1NpHr16uIuR4ifGORdLyubnPjt7bPQszq7mVf3pNCVSlOqysVLy9QisBATSfDDcoNRN0vDSSKpwX1+nfT3NBxb8vFutCsBuwm693HP0+qkgBQIRI/h0YqM9OWm7xA87V13ccyISHvXi2akNTj1Ecun92I" 
+       target="_blank" 
+       class="text-white px-4 py-2 rounded-full font-montserrat font-semibold text-sm" 
+       style="background-color: #2e926f;">
+        Classes
+    </a>
+
+    <!-- Mobile menu toggle -->
+    <button id="mobile-menu-button" class="text-white p-2" onclick="toggleMobileMenu()">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                  d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </button>
+</div>
+
+<!-- Desktop buttons -->
+<div class="hidden md:flex items-center space-x-3">
+    <!-- Book Now button -->
+    <button class="text-white px-6 py-2 rounded-full font-montserrat font-semibold" 
+            style="background-color: #2e926f;" 
+            onclick="openBooking()">
+        Book Now
+    </button>
+
+    <!-- Classes button -->
+    <a href="https://www.vagaro.com//Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVEUpqpxe523ya53y90PX3F/j4kyckTajUIGHQrdLcECUY2aP+/fWg4IxZweaSYQRr6K1XT+klu0REPjvrdvgDuYXzkA4xwpvU7bX7i6pDxuFALRDbqmQ37dI2/t0Z28XRlXTbPrrKvltm5McGjOUbCq8rguOcpmESRJskS2KDuLBEzHcpQAU5fKl3WFnHsI1/VKjWhCi8gS78TnesD512ryAuy2l2k5XwANPSbrx9UMaGWyW65dLippXy1nlE3EPu9qqK0Zj4Uq0Kb3Mzmv1NpHr16uIuR4ifGORdLyubnPjt7bPQszq7mVf3pNCVSlOqysVLy9QisBATSfDDcoNRN0vDSSKpwX1+nfT3NBxb8vFutCsBuwm693HP0+qkgBQIRI/h0YqM9OWm7xA87V13ccyISHvXi2akNTj1Ecun92I" 
+       target="_blank" 
+       class="text-white px-6 py-2 rounded-full font-montserrat font-semibold" 
+       style="background-color: #2e926f;">
+        Classes
+    </a>
             </div>
             
             <!-- Mobile menu -->
@@ -942,6 +966,7 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96698359d2f5c872',t:'MTc1Mzc1OTU2OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
 
 
 
